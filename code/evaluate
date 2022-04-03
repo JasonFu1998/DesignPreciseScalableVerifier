@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for net in fc1 fc2 fc3 fc4 fc5
+do
+	for k in 0 1;
+	do
+		echo Evaluating network net${k}_${net}
+		for spec in `ls ../test_cases/net${k}_${net}`
+		do
+			#python.exe verifier.py --net net${k}_${net} --spec ../test_cases/net${k}_${net}/${spec} # windows
+			python verifier.py --net net${k}_${net} --spec ../test_cases/net${k}_${net}/${spec}    # linux
+		done
+	done
+done

@@ -1,0 +1,20 @@
+net0_fc1,example_img0_0.01800.txt,verified
+net0_fc1,example_img1_0.05000.txt,verified
+net1_fc1,example_img0_0.07500.txt,verified
+net1_fc1,example_img1_0.07200.txt,verified
+net0_fc2,example_img0_0.09500.txt,verified
+net0_fc2,example_img1_0.08300.txt,verified
+net1_fc2,example_img0_0.05200.txt,not verified
+net1_fc2,example_img1_0.07200.txt,verified
+net0_fc3,example_img0_0.07500.txt,verified
+net0_fc3,example_img1_0.08100.txt,verified
+net1_fc3,example_img0_0.06100.txt,verified
+net1_fc3,example_img1_0.00230.txt,not verified
+net0_fc4,example_img0_0.03300.txt,verified
+net0_fc4,example_img1_0.01800.txt,not verified
+net1_fc4,example_img0_0.05200.txt,not verified
+net1_fc4,example_img1_0.01300.txt,verified
+net0_fc5,example_img0_0.02100.txt,not verified
+net0_fc5,example_img1_0.01900.txt,verified
+net1_fc5,example_img0_0.08400.txt,verified
+net1_fc5,example_img1_0.07800.txt,verified
